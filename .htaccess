@@ -1,6 +1,26 @@
-RewriteEngine on
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
+# NONE OF THIS WORKS FOR SOME REASON
 
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+# Use Https rather than Http
+
+RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
+RewriteCond %{https} off
+RewriteRule ^(.*)$ https://www.misseniors2022.com/$1 [R=301,L]
+
+# protect .htaccess
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Make Main Page
+
+DirectoryIndex gallery.html
+
+#Errors (Forbid.html has been deleted since it doesn't work)
+
+ErrorDocument 400 /forbid.html
+ErrorDocument 401 /forbid.html
+ErrorDocument 403 /forbid.html
+ErrorDocument 404 /forbid.html
+ErrorDocument 500 /forbid.html

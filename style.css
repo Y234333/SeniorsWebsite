@@ -8,7 +8,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,0,30,0.7),rgba(4,0,30,0.7)),url(https://i.ibb.co/HqHdhZk/2022-1-Copy1-min.png); /* Front Page Picture */
+    background-image: linear-gradient(rgba(4,0,30,0.7),rgba(4,0,30,0.7)),url(https://i.ibb.co/JHF4jrG/2022-compressed-further.jpg); /* Front Page Picture */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -143,7 +143,7 @@ nav img{
 .sub-header{
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://i.ibb.co/HqHdhZk/2022-1-Copy1-min.png); /* Front Page Picture */
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://i.ibb.co/JHF4jrG/2022-compressed-further.jpg); /* Front Page Picture */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -188,7 +188,7 @@ nav img{
     }
 }
 
-.top-content{
+.top-content{ 
     background-color: rgb(240,248,255);
     width: 90%;
     margin: 0 auto 20px auto;
@@ -428,9 +428,7 @@ footer a{
     **/
 }
 .card-text{
-    text-align: left;
-    margin-left: 2em;
-    margin-bottom: 0.5em;
+    text-align: center;
     margin-top: 10px;
     font-size: 12px;
 }
@@ -443,7 +441,7 @@ footer a{
 
 @media(max-width: 700px){
     .container h3{
-        padding: 0 25px;
+        padding: 0 20px;
     }
     label{
         font-size: 18px;
@@ -463,7 +461,7 @@ footer a{
         grid-template-columns: repeat(2, 1fr);
     }
     .card-text{
-        font-size: 10px;
+        font-size: 11px;
     }
     .card-title{
         font-size: 14px;
