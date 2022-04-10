@@ -137,6 +137,11 @@ nav img{
     background-color: #f44336;
     color: #fff;
 }
+.image-btn{
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 88%;
+}
 
 /** GALLERY SITE **/
 
