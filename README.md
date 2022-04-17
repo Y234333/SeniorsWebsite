@@ -18,5 +18,5 @@
 
 ## Website Link
 
-Permanent Link: https://misseniors2022-y234333.vercel.app/
-(Might become a link): https://misseniors2022.com
+1. Permanent Link: https://misseniors2022-y234333.vercel.app/
+2. (Might become a link): https://misseniors2022.com
