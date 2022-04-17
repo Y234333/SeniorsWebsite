@@ -1,4 +1,4 @@
-# NONE OF THIS WORKS FOR SOME REASON
+# NONE OF THIS WORKS FOR SOME REASON - Can't be bothered to fix this
 
 # Use Https rather than Http
 
@@ -12,15 +12,3 @@ RewriteRule ^(.*)$ https://www.misseniors2022.com/$1 [R=301,L]
 order allow,deny
 deny from all
 </Files>
-
-# Make Main Page
-
-DirectoryIndex gallery.html
-
-#Errors (Forbid.html has been deleted since it doesn't work)
-
-ErrorDocument 400 /forbid.html
-ErrorDocument 401 /forbid.html
-ErrorDocument 403 /forbid.html
-ErrorDocument 404 /forbid.html
-ErrorDocument 500 /forbid.html
